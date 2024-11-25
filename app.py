@@ -4,6 +4,7 @@ import streamlit as st
 from folium.raster_layers import WmsTileLayer
 from streamlit_folium import st_folium
 
+from data import styles
 from data.data_gouv import fetch_ports
 from data.dreal import fetch_natura2000, fetch_znieff_layers
 from data.iberdrola import fetch_windmills
@@ -12,7 +13,7 @@ from data.iberdrola import fetch_windmills
 st.set_page_config(
     page_title="Baie de Saint-Brieuc Overview",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="collapsed",
 )
 
 # Title
@@ -72,12 +73,7 @@ with col1:
         fields=["nom", "url"],
         aliases=["Name:", "Url:"],
     )
-    style_znieff = lambda x: {
-        "fillColor": "#90EE90",
-        "lineColor": "#006400",
-        "fillOpacity": 1,
-        "opacity": 1,
-    }
+    style_znieff = lambda x: styles.ZNIEFF
     folium.GeoJson(
         znieff_gdf, popup=popup_znieff, name="ZNIEFF sites", style_function=style_znieff
     ).add_to(m)
@@ -87,12 +83,7 @@ with col1:
         fields=["nom", "url"],
         aliases=["Name:", "Url:"],
     )
-    style_natura = lambda x: {
-        "fillColor": "#6495ED",
-        "lineColor": "#00008B",
-        "fillOpacity": 1,
-        "opacity": 1,
-    }
+    style_natura = lambda x: styles.NATURA_2000
     folium.GeoJson(
         natura_gdf,
         popup=popup_natura,
