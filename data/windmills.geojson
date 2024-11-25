@@ -1,0 +1,1989 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": 1,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.57144045722831,
+                    48.8234950158503
+                ]
+            },
+            "properties": {
+                "OBJECTID": 1,
+                "Number_": 1,
+                "Turbine_Name": "SB01",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 531456.50100000016,
+                "Y_Metres": 5407923.411,
+                "X_DD": -2.57144046,
+                "Y_DD": 48.82349502,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -34.00203,
+                "Cluster": "C1",
+                "GlobalID": "737762b1-6674-4bac-be2f-b5cf2238390f",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 6,
+                "D": null,
+                "Grd_Pk_LAT": -98.8645,
+                "TOP_LS_LAT": -42.3313,
+                "GeoXYZ_20210125": -34.00203
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.56018768580483,
+                    48.8172004606055
+                ]
+            },
+            "properties": {
+                "OBJECTID": 2,
+                "Number_": 2,
+                "Turbine_Name": "SB02",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 532286.50100000016,
+                "Y_Metres": 5407228.411,
+                "X_DD": -2.56018769,
+                "Y_DD": 48.81720046,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -33.66504,
+                "Cluster": "C1",
+                "GlobalID": "30b35534-5de6-4f54-b478-32e91d6def10",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 6,
+                "D": null,
+                "Grd_Pk_LAT": -71.3947,
+                "TOP_LS_LAT": -38.9392,
+                "GeoXYZ_20210125": -33.66504
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.54954064172148,
+                    48.810502348392
+                ]
+            },
+            "properties": {
+                "OBJECTID": 3,
+                "Number_": 3,
+                "Turbine_Name": "SB03",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 533072.50100000016,
+                "Y_Metres": 5406488.411,
+                "X_DD": -2.54954064,
+                "Y_DD": 48.81050235,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -33.56298,
+                "Cluster": "C1",
+                "GlobalID": "d92c568e-cd3f-4ce0-b8bf-21d128fa5625",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 6,
+                "D": null,
+                "Grd_Pk_LAT": -43.702,
+                "TOP_LS_LAT": -42.9588,
+                "GeoXYZ_20210125": -33.56298
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.58908507424144,
+                    48.8532817141248
+                ]
+            },
+            "properties": {
+                "OBJECTID": 4,
+                "Number_": 4,
+                "Turbine_Name": "SB04",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 530143.50100000016,
+                "Y_Metres": 5411227.411,
+                "X_DD": -2.58908508,
+                "Y_DD": 48.85328172,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -35.38801,
+                "Cluster": "C3",
+                "GlobalID": "b59be6c3-d6af-4c7e-97f9-6f313db3dfab",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 1,
+                "D": null,
+                "Grd_Pk_LAT": -43.6983,
+                "TOP_LS_LAT": -35.8288,
+                "GeoXYZ_20210125": -35.38801
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.56911434384907,
+                    48.838968314302
+                ]
+            },
+            "properties": {
+                "OBJECTID": 5,
+                "Number_": 6,
+                "Turbine_Name": "SB06",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 531617.50100000016,
+                "Y_Metres": 5409644.411,
+                "X_DD": -2.56911434,
+                "Y_DD": 48.83896832,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -33.89996,
+                "Cluster": "C1",
+                "GlobalID": "b372da71-edaf-4d0c-a298-7b7060bb1d75",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 1,
+                "D": null,
+                "Grd_Pk_LAT": -80.4808,
+                "TOP_LS_LAT": -41.0599,
+                "GeoXYZ_20210125": -33.89996
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 6,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.55778988761004,
+                    48.832718256302
+                ]
+            },
+            "properties": {
+                "OBJECTID": 6,
+                "Number_": 7,
+                "Turbine_Name": "SB07",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 532452.50100000016,
+                "Y_Metres": 5408954.411,
+                "X_DD": -2.55778989,
+                "Y_DD": 48.83271826,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -33.54798,
+                "Cluster": "C3",
+                "GlobalID": "9cd6c853-348d-4b92-a5fa-92f4c4d2098a",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 6,
+                "D": null,
+                "Grd_Pk_LAT": -55.1037,
+                "TOP_LS_LAT": -36.8224,
+                "GeoXYZ_20210125": -33.54798
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 7,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.54807199401147,
+                    48.8253938746355
+                ]
+            },
+            "properties": {
+                "OBJECTID": 7,
+                "Number_": 8,
+                "Turbine_Name": "SB08",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 533170.50100000016,
+                "Y_Metres": 5408144.411,
+                "X_DD": -2.54807199,
+                "Y_DD": 48.82539388,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -33.71895,
+                "Cluster": "C1",
+                "GlobalID": "cdd9eb1f-a5a6-4dc8-8e29-37af2ae68205",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 6,
+                "D": null,
+                "Grd_Pk_LAT": -58.7461,
+                "TOP_LS_LAT": -59.2543,
+                "GeoXYZ_20210125": -33.71895
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 8,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.53754835371826,
+                    48.8185961927803
+                ]
+            },
+            "properties": {
+                "OBJECTID": 8,
+                "Number_": 9,
+                "Turbine_Name": "SB09",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 533947.50100000016,
+                "Y_Metres": 5407393.411,
+                "X_DD": -2.53754835,
+                "Y_DD": 48.81859619,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -34.468,
+                "Cluster": "C3",
+                "GlobalID": "2c74d017-01b0-4b86-9fd7-ce7a67ed8659",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 6,
+                "D": null,
+                "Grd_Pk_LAT": -56.5109,
+                "TOP_LS_LAT": -36.3245,
+                "GeoXYZ_20210125": -34.468
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 9,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.52739758851424,
+                    48.8115561781537
+                ]
+            },
+            "properties": {
+                "OBJECTID": 9,
+                "Number_": 10,
+                "Turbine_Name": "SB10",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 534697.50100000016,
+                "Y_Metres": 5406615.411,
+                "X_DD": -2.52739759,
+                "Y_DD": 48.81155618,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -33.57506,
+                "Cluster": "C3",
+                "GlobalID": "e4b75cc6-1715-4b8d-9168-e001a9eac37a",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 6,
+                "D": null,
+                "Grd_Pk_LAT": -54.2928,
+                "TOP_LS_LAT": -34.6729,
+                "GeoXYZ_20210125": -33.57506
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 10,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.51650943756688,
+                    48.8050159418217
+                ]
+            },
+            "properties": {
+                "OBJECTID": 10,
+                "Number_": 11,
+                "Turbine_Name": "SB11",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 535501.50100000016,
+                "Y_Metres": 5405893.411,
+                "X_DD": -2.51650944,
+                "Y_DD": 48.80501594,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -33.18491,
+                "Cluster": "C1",
+                "GlobalID": "c37a6cf6-455f-4aec-b044-2bad41ebd948",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 6,
+                "D": null,
+                "Grd_Pk_LAT": -65.595,
+                "TOP_LS_LAT": -47.5036,
+                "GeoXYZ_20210125": -33.18491
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 11,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.50599424051523,
+                    48.7982243784784
+                ]
+            },
+            "properties": {
+                "OBJECTID": 11,
+                "Number_": 12,
+                "Turbine_Name": "SB12",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 536278.50100000016,
+                "Y_Metres": 5405143.411,
+                "X_DD": -2.50599424,
+                "Y_DD": 48.79822438,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -32.818,
+                "Cluster": "C1",
+                "GlobalID": "be3464cc-b81d-4f44-a182-5b6ed55f594c",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 6,
+                "D": null,
+                "Grd_Pk_LAT": -88.3545,
+                "TOP_LS_LAT": -58.8362,
+                "GeoXYZ_20210125": -32.818
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 12,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.59840075572771,
+                    48.8748056467099
+                ]
+            },
+            "properties": {
+                "OBJECTID": 12,
+                "Number_": 13,
+                "Turbine_Name": "SB13",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 529447.50100000016,
+                "Y_Metres": 5413616.411,
+                "X_DD": -2.59840076,
+                "Y_DD": 48.87480565,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -36.86996,
+                "Cluster": "C4",
+                "GlobalID": "6642b1e3-5ed6-4f6e-916f-3b263abf3efb",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 1,
+                "D": null,
+                "Grd_Pk_LAT": -59.9985,
+                "TOP_LS_LAT": -38.0693,
+                "GeoXYZ_20210125": -36.86996
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 13,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.55626699075595,
+                    48.847778605924
+                ]
+            },
+            "properties": {
+                "OBJECTID": 13,
+                "Number_": 17,
+                "Turbine_Name": "SB17",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 532554.5,
+                "Y_Metres": 5410629.1958000008,
+                "X_DD": -2.55626699,
+                "Y_DD": 48.84777861,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -34.72002,
+                "Cluster": "C3",
+                "GlobalID": "46c059f5-6eb3-4d4e-b8ff-1fded6b3ad06",
+                "Design_Status": "Microsited Position",
+                "SOURCE": "STB-FTI-QUA-FOR-VOO-004464; 144392-VOOW-TI-INS-MOC-0090 Micro-siting at locations B17 and B18.pdf",
+                "String_ID": 1,
+                "D": null,
+                "Grd_Pk_LAT": -46.3505,
+                "TOP_LS_LAT": -35.7774,
+                "GeoXYZ_20210125": -34.72002
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 14,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.52468817490689,
+                    48.8272879339732
+                ]
+            },
+            "properties": {
+                "OBJECTID": 14,
+                "Number_": 20,
+                "Turbine_Name": "SB20",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 534885.50100000016,
+                "Y_Metres": 5408365.411,
+                "X_DD": -2.52468817,
+                "Y_DD": 48.82728793,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -33.32997,
+                "Cluster": "C1",
+                "GlobalID": "5d773493-3e29-4519-8af5-ef8f3a638af1",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 7,
+                "D": null,
+                "Grd_Pk_LAT": -42.8726,
+                "TOP_LS_LAT": -37.6449,
+                "GeoXYZ_20210125": -33.32997
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 15,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.51426328458131,
+                    48.8204255615503
+                ]
+            },
+            "properties": {
+                "OBJECTID": 15,
+                "Number_": 21,
+                "Turbine_Name": "SB21",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 535655.50100000016,
+                "Y_Metres": 5407607.411,
+                "X_DD": -2.51426328,
+                "Y_DD": 48.82042556,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -34.83003,
+                "Cluster": "C3",
+                "GlobalID": "6a42029f-a4d3-42f2-8272-edf895e7886a",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 7,
+                "D": null,
+                "Grd_Pk_LAT": -50.6847,
+                "TOP_LS_LAT": -36.2,
+                "GeoXYZ_20210125": -34.83003
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 16,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.49313396191893,
+                    48.8069036337948
+                ]
+            },
+            "properties": {
+                "OBJECTID": 16,
+                "Number_": 23,
+                "Turbine_Name": "SB23",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 537216.50100000016,
+                "Y_Metres": 5406114.411,
+                "X_DD": -2.49313396,
+                "Y_DD": 48.80690363,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -34.62,
+                "Cluster": "C1",
+                "GlobalID": "727b6289-e120-4118-a91f-2988df3bd22e",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 7,
+                "D": null,
+                "Grd_Pk_LAT": -80.2292,
+                "TOP_LS_LAT": -60.3238,
+                "GeoXYZ_20210125": -34.62
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 17,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.48262154530516,
+                    48.800109949892
+                ]
+            },
+            "properties": {
+                "OBJECTID": 17,
+                "Number_": 24,
+                "Turbine_Name": "SB24",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 537993.50100000016,
+                "Y_Metres": 5405364.411,
+                "X_DD": -2.48262155,
+                "Y_DD": 48.80010995,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -34.69998,
+                "Cluster": "C1",
+                "GlobalID": "b81be11f-6038-4197-b544-0f3c80ec3d1f",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 7,
+                "D": null,
+                "Grd_Pk_LAT": -70.3152,
+                "TOP_LS_LAT": -43.1886,
+                "GeoXYZ_20210125": -34.69998
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 18,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.60713454246396,
+                    48.8967315693201
+                ]
+            },
+            "properties": {
+                "OBJECTID": 18,
+                "Number_": 25,
+                "Turbine_Name": "SB25",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 528794.50100000016,
+                "Y_Metres": 5416050.411,
+                "X_DD": -2.60713454,
+                "Y_DD": 48.89673157,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -37.76997,
+                "Cluster": "C4",
+                "GlobalID": "dfaab0cf-637d-4288-be40-8c520310918b",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 4,
+                "D": null,
+                "Grd_Pk_LAT": -63.6541,
+                "TOP_LS_LAT": -37.7435,
+                "GeoXYZ_20210125": -37.76997
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.59608040215274,
+                    48.8902883623727
+                ]
+            },
+            "properties": {
+                "OBJECTID": 19,
+                "Number_": 26,
+                "Turbine_Name": "SB26",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 529608.50100000016,
+                "Y_Metres": 5415338.411,
+                "X_DD": -2.5960804,
+                "Y_DD": 48.89028836,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -37.31997,
+                "Cluster": "C4",
+                "GlobalID": "68b46117-a7e8-46e4-a71f-a53c2d71a2b0",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 4,
+                "D": null,
+                "Grd_Pk_LAT": -41.4421,
+                "TOP_LS_LAT": -36.9842,
+                "GeoXYZ_20210125": -37.31997
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 20,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.58553667887316,
+                    48.8834950845018
+                ]
+            },
+            "properties": {
+                "OBJECTID": 20,
+                "Number_": 27,
+                "Turbine_Name": "SB27",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 530385.50100000016,
+                "Y_Metres": 5414587.411,
+                "X_DD": -2.58553668,
+                "Y_DD": 48.88349509,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -37.61002,
+                "Cluster": "C4",
+                "GlobalID": "17e49449-d492-434f-9727-9ca4fecb049c",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 4,
+                "D": null,
+                "Grd_Pk_LAT": -49.2251,
+                "TOP_LS_LAT": -38.0478,
+                "GeoXYZ_20210125": -37.61002
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 21,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5749957356259,
+                    48.8767098382075
+                ]
+            },
+            "properties": {
+                "OBJECTID": 21,
+                "Number_": 28,
+                "Turbine_Name": "SB28",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 531162.50100000016,
+                "Y_Metres": 5413837.411,
+                "X_DD": -2.57499574,
+                "Y_DD": 48.87670984,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -36.74002,
+                "Cluster": "C4",
+                "GlobalID": "ff905383-bbc1-4945-8110-aef8a7c823c2",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 4,
+                "D": null,
+                "Grd_Pk_LAT": -44.7203,
+                "TOP_LS_LAT": -37.1504,
+                "GeoXYZ_20210125": -36.74002
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 22,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.52234748443402,
+                    48.8427602318749
+                ]
+            },
+            "properties": {
+                "OBJECTID": 22,
+                "Number_": 32,
+                "Turbine_Name": "SB32",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 535046.50100000016,
+                "Y_Metres": 5410086.411,
+                "X_DD": -2.52234748,
+                "Y_DD": 48.84276023,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -34.13997,
+                "Cluster": "C3",
+                "GlobalID": "0ab75632-3107-4dba-bec0-c5ae3c0dd7d9",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 8,
+                "D": null,
+                "Grd_Pk_LAT": -56.9223,
+                "TOP_LS_LAT": -35.9537,
+                "GeoXYZ_20210125": -34.13997
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 23,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.51182363423902,
+                    48.835969217318
+                ]
+            },
+            "properties": {
+                "OBJECTID": 23,
+                "Number_": 33,
+                "Turbine_Name": "SB33",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 535823.50100000016,
+                "Y_Metres": 5409336.411,
+                "X_DD": -2.51182363,
+                "Y_DD": 48.83596922,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -35.3,
+                "Cluster": "C3",
+                "GlobalID": "44d33954-8817-46bd-9b1b-18aed55f40e1",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 8,
+                "D": null,
+                "Grd_Pk_LAT": -46.4779,
+                "TOP_LS_LAT": -36.7382,
+                "GeoXYZ_20210125": -35.3
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.50130271850389,
+                    48.8291682480356
+                ]
+            },
+            "properties": {
+                "OBJECTID": 24,
+                "Number_": 34,
+                "Turbine_Name": "SB34",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 536600.50100000016,
+                "Y_Metres": 5408585.411,
+                "X_DD": -2.50130272,
+                "Y_DD": 48.82916825,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -36.28,
+                "Cluster": "C4",
+                "GlobalID": "ed3c1b4a-32d5-4576-ae81-33fa30345430",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 8,
+                "D": null,
+                "Grd_Pk_LAT": -56.8001,
+                "TOP_LS_LAT": -38.6861,
+                "GeoXYZ_20210125": -36.28
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 25,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.4907845595048,
+                    48.8223753158035
+                ]
+            },
+            "properties": {
+                "OBJECTID": 25,
+                "Number_": 35,
+                "Turbine_Name": "SB35",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 537377.50100000016,
+                "Y_Metres": 5407835.411,
+                "X_DD": -2.49078456,
+                "Y_DD": 48.82237532,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -35.57003,
+                "Cluster": "C1",
+                "GlobalID": "aca86477-154f-4286-b37d-1dffb0165671",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 8,
+                "D": null,
+                "Grd_Pk_LAT": -84.2994,
+                "TOP_LS_LAT": -56.9607,
+                "GeoXYZ_20210125": -35.57003
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 26,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.47888362365853,
+                    48.8165287413439
+                ]
+            },
+            "properties": {
+                "OBJECTID": 26,
+                "Number_": 36,
+                "Turbine_Name": "SB36",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 538255.50100000016,
+                "Y_Metres": 5407191.411,
+                "X_DD": -2.47888362,
+                "Y_DD": 48.81652874,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -35.61994,
+                "Cluster": "C1",
+                "GlobalID": "90a431fa-aafc-40ce-82e1-36ac1448ed02",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 8,
+                "D": null,
+                "Grd_Pk_LAT": -75.2739,
+                "TOP_LS_LAT": -47.1429,
+                "GeoXYZ_20210125": -35.61994
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 27,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.4593019934421,
+                    48.8019550483968
+                ]
+            },
+            "properties": {
+                "OBJECTID": 27,
+                "Number_": 38,
+                "Turbine_Name": "SB38",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 539704.50100000016,
+                "Y_Metres": 5405581.411,
+                "X_DD": -2.45930199,
+                "Y_DD": 48.80195505,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -34.86991,
+                "Cluster": "C3",
+                "GlobalID": "5911e176-e28c-4c62-ba84-4fcf9dfb9c1f",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 8,
+                "D": null,
+                "Grd_Pk_LAT": -49.9545,
+                "TOP_LS_LAT": -36.7923,
+                "GeoXYZ_20210125": -34.86991
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 28,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.59322354971943,
+                    48.9061199358751
+                ]
+            },
+            "properties": {
+                "OBJECTID": 28,
+                "Number_": 39,
+                "Turbine_Name": "SB39",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 529808.50100000016,
+                "Y_Metres": 5417099.411,
+                "X_DD": -2.59322355,
+                "Y_DD": 48.90611994,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -38.37995,
+                "Cluster": "C4",
+                "GlobalID": "24abba37-2689-4a00-bfd0-15a3fb41fc39",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 3,
+                "D": null,
+                "Grd_Pk_LAT": -40.4437,
+                "TOP_LS_LAT": -38.3176,
+                "GeoXYZ_20210125": -38.37995
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 29,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.58343151046429,
+                    48.8988253704145
+                ]
+            },
+            "properties": {
+                "OBJECTID": 29,
+                "Number_": 40,
+                "Turbine_Name": "SB40",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 530530.50100000016,
+                "Y_Metres": 5416292.411,
+                "X_DD": -2.58343151,
+                "Y_DD": 48.89882537,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -37.88002,
+                "Cluster": "C4",
+                "GlobalID": "b2158aa9-a6cb-409d-a0b9-59f21be2f934",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 3,
+                "D": null,
+                "Grd_Pk_LAT": -43.3983,
+                "TOP_LS_LAT": -37.3692,
+                "GeoXYZ_20210125": -37.88002
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 30,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.57268178595706,
+                    48.8921831119026
+                ]
+            },
+            "properties": {
+                "OBJECTID": 30,
+                "Number_": 41,
+                "Turbine_Name": "SB41",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 531322.50100000016,
+                "Y_Metres": 5415558.411,
+                "X_DD": -2.57268179,
+                "Y_DD": 48.89218311,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -37.76002,
+                "Cluster": "C4",
+                "GlobalID": "373cfe39-d650-4fe0-a4ce-f875ce9796df",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 3,
+                "D": null,
+                "Grd_Pk_LAT": -61.2129,
+                "TOP_LS_LAT": -38.3097,
+                "GeoXYZ_20210125": -37.76002
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 31,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.56229167794317,
+                    48.8852983192875
+                ]
+            },
+            "properties": {
+                "OBJECTID": 31,
+                "Number_": 42,
+                "Turbine_Name": "SB42",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 532088.50100000016,
+                "Y_Metres": 5414797.411,
+                "X_DD": -2.56229168,
+                "Y_DD": 48.88529832,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -36.95,
+                "Cluster": "C4",
+                "GlobalID": "34147145-538a-4a9a-afe4-708cf13fab56",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 3,
+                "D": null,
+                "Grd_Pk_LAT": -44.8317,
+                "TOP_LS_LAT": -36.7975,
+                "GeoXYZ_20210125": -36.95
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 32,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.54038118800738,
+                    48.8722860410539
+                ]
+            },
+            "properties": {
+                "OBJECTID": 32,
+                "Number_": 44,
+                "Turbine_Name": "SB44",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 533703.50100000016,
+                "Y_Metres": 5413360.411,
+                "X_DD": -2.54038119,
+                "Y_DD": 48.87228604,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -36.48001,
+                "Cluster": "C4",
+                "GlobalID": "57164af3-79c7-47ab-87c5-da8142a0bb7a",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 3,
+                "D": null,
+                "Grd_Pk_LAT": -39.7323,
+                "TOP_LS_LAT": -38.1471,
+                "GeoXYZ_20210125": -36.48001
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 33,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.52980756771434,
+                    48.8655235002804
+                ]
+            },
+            "properties": {
+                "OBJECTID": 33,
+                "Number_": 45,
+                "Turbine_Name": "SB45",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 534483.50100000016,
+                "Y_Metres": 5412613.411,
+                "X_DD": -2.52980757,
+                "Y_DD": 48.8655235,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -35.58002,
+                "Cluster": "C3",
+                "GlobalID": "a4c56c62-0efb-4364-9331-f4fcba56419e",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 5,
+                "D": null,
+                "Grd_Pk_LAT": -38.3513,
+                "TOP_LS_LAT": -35.5415,
+                "GeoXYZ_20210125": -35.58002
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 34,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.52000531706455,
+                    48.8582324360531
+                ]
+            },
+            "properties": {
+                "OBJECTID": 34,
+                "Number_": 46,
+                "Turbine_Name": "SB46",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 535207.50100000016,
+                "Y_Metres": 5411807.411,
+                "X_DD": -2.52000532,
+                "Y_DD": 48.85823244,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -35.06,
+                "Cluster": "C3",
+                "GlobalID": "4ea6387c-f88b-46bc-9e77-d4ffd4118a9c",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 5,
+                "D": null,
+                "Grd_Pk_LAT": -39.2166,
+                "TOP_LS_LAT": -35.9493,
+                "GeoXYZ_20210125": -35.06
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 35,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.50927541268138,
+                    48.8513054135306
+                ]
+            },
+            "properties": {
+                "OBJECTID": 35,
+                "Number_": 47,
+                "Turbine_Name": "SB47",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 535999.50100000016,
+                "Y_Metres": 5411042.411,
+                "X_DD": -2.50927541,
+                "Y_DD": 48.85130541,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -36.19997,
+                "Cluster": "C2",
+                "GlobalID": "f53deca5-3409-43c5-87ff-bf5099b2bca0",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 5,
+                "D": null,
+                "Grd_Pk_LAT": -81.7975,
+                "TOP_LS_LAT": -46.2025,
+                "GeoXYZ_20210125": -36.19997
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 36,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.49895464679943,
+                    48.8446490371173
+                ]
+            },
+            "properties": {
+                "OBJECTID": 36,
+                "Number_": 48,
+                "Turbine_Name": "SB48",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 536761.50100000016,
+                "Y_Metres": 5410307.411,
+                "X_DD": -2.49895465,
+                "Y_DD": 48.84464904,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -36.51001,
+                "Cluster": "C2",
+                "GlobalID": "024aee59-8462-42a9-8b8f-f26969415947",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 5,
+                "D": null,
+                "Grd_Pk_LAT": -53.5337,
+                "TOP_LS_LAT": -46.4241,
+                "GeoXYZ_20210125": -36.51001
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 37,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.48936782503066,
+                    48.838453771221
+                ]
+            },
+            "properties": {
+                "OBJECTID": 37,
+                "Number_": 49,
+                "Turbine_Name": "SB49",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 537469.50100000016,
+                "Y_Metres": 5409623.411,
+                "X_DD": -2.48936783,
+                "Y_DD": 48.83845377,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -38.01003,
+                "Cluster": "C2",
+                "GlobalID": "23a91ac4-49dc-4e5b-8643-f74c748489fa",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 5,
+                "D": null,
+                "Grd_Pk_LAT": -77.7579,
+                "TOP_LS_LAT": -55.439,
+                "GeoXYZ_20210125": -38.01003
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 38,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.58089944933918,
+                    48.914450888619
+                ]
+            },
+            "properties": {
+                "OBJECTID": 38,
+                "Number_": 50,
+                "Turbine_Name": "SB50",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 530706.50100000016,
+                "Y_Metres": 5418030.411,
+                "X_DD": -2.58089945,
+                "Y_DD": 48.91445089,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -38.87902,
+                "Cluster": "C4",
+                "GlobalID": "31ddc8fa-8c87-4046-a7f6-dda5b4d8ab65",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 2,
+                "D": null,
+                "Grd_Pk_LAT": -46.2304,
+                "TOP_LS_LAT": -37.9865,
+                "GeoXYZ_20210125": -38.87902
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 39,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.57035265344297,
+                    48.9076652381488
+                ]
+            },
+            "properties": {
+                "OBJECTID": 39,
+                "Number_": 51,
+                "Turbine_Name": "SB51",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 531483.50100000016,
+                "Y_Metres": 5417280.411,
+                "X_DD": -2.57035265,
+                "Y_DD": 48.90766524,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -37.599,
+                "Cluster": "C4",
+                "GlobalID": "96039d34-24be-43f6-8339-ca11c781451d",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 2,
+                "D": null,
+                "Grd_Pk_LAT": -40.9475,
+                "TOP_LS_LAT": -37.2492,
+                "GeoXYZ_20210125": -37.599
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 40,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.55980871387576,
+                    48.9008786235367
+                ]
+            },
+            "properties": {
+                "OBJECTID": 40,
+                "Number_": 52,
+                "Turbine_Name": "SB52",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 532260.50100000016,
+                "Y_Metres": 5416530.411,
+                "X_DD": -2.55980871,
+                "Y_DD": 48.90087862,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -37.44398,
+                "Cluster": "C4",
+                "GlobalID": "22d6bf99-4600-4cd1-af04-bf01d296888e",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 2,
+                "D": null,
+                "Grd_Pk_LAT": -40.6505,
+                "TOP_LS_LAT": -37.6124,
+                "GeoXYZ_20210125": -37.44398
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 41,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5498716195129,
+                    48.8936795968759
+                ]
+            },
+            "properties": {
+                "OBJECTID": 41,
+                "Number_": 53,
+                "Turbine_Name": "SB53",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 532993.50100000016,
+                "Y_Metres": 5415734.411,
+                "X_DD": -2.54987162,
+                "Y_DD": 48.8936796,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -37.77099,
+                "Cluster": "C4",
+                "GlobalID": "69978473-bd55-460f-bf6d-85ce16c8959a",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 2,
+                "D": null,
+                "Grd_Pk_LAT": -51.3745,
+                "TOP_LS_LAT": -38.2,
+                "GeoXYZ_20210125": -37.77099
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 42,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.53829024553351,
+                    48.8875886137919
+                ]
+            },
+            "properties": {
+                "OBJECTID": 42,
+                "Number_": 54,
+                "Turbine_Name": "SB54",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 533846.50100000016,
+                "Y_Metres": 5415062.411,
+                "X_DD": -2.53829025,
+                "Y_DD": 48.88758861,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -37.46899,
+                "Cluster": "C4",
+                "GlobalID": "ed9137c6-a577-4e2a-8272-d8c4ac4f16b6",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 2,
+                "D": null,
+                "Grd_Pk_LAT": -48.5871,
+                "TOP_LS_LAT": -38.1031,
+                "GeoXYZ_20210125": -37.46899
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 43,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.52764499457736,
+                    48.8808795836667
+                ]
+            },
+            "properties": {
+                "OBJECTID": 43,
+                "Number_": 55,
+                "Turbine_Name": "SB55",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 534631.50100000016,
+                "Y_Metres": 5414321.411,
+                "X_DD": -2.52764499,
+                "Y_DD": 48.88087958,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -37.32799,
+                "Cluster": "C2",
+                "GlobalID": "79d5fe45-3d50-43b5-b85e-23ae3090a419",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 5,
+                "D": null,
+                "Grd_Pk_LAT": -56.4775,
+                "TOP_LS_LAT": -51.4602,
+                "GeoXYZ_20210125": -37.32799
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 44,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.51779380473705,
+                    48.874145896059
+                ]
+            },
+            "properties": {
+                "OBJECTID": 44,
+                "Number_": 56,
+                "Turbine_Name": "SB56",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 535358.50100000016,
+                "Y_Metres": 5413577.411,
+                "X_DD": -2.5177938,
+                "Y_DD": 48.8741459,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -37.57499,
+                "Cluster": "C2",
+                "GlobalID": "afd655a5-4c6e-429c-8a02-1f570be23fa1",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 5,
+                "D": null,
+                "Grd_Pk_LAT": -65.1452,
+                "TOP_LS_LAT": -47.8864,
+                "GeoXYZ_20210125": -37.57499
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 45,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5683645685702,
+                    48.9232705527755
+                ]
+            },
+            "properties": {
+                "OBJECTID": 45,
+                "Number_": 57,
+                "Turbine_Name": "SB57",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 531619.33210000023,
+                "Y_Metres": 5419015.9728,
+                "X_DD": -2.56836457,
+                "Y_DD": 48.92327055,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -38.27005,
+                "Cluster": "C4",
+                "GlobalID": "bd255f02-5299-4468-a485-4535dfe548ab",
+                "Design_Status": "Microsited Position",
+                "SOURCE": "144392-VOOW-TI-INS-MOC-0112 Micro-siting at location B57.pdf - STB-FTI-QUA-FOR-VOO-004738",
+                "String_ID": 2,
+                "D": null,
+                "Grd_Pk_LAT": -41.3358,
+                "TOP_LS_LAT": -37.6487,
+                "GeoXYZ_20210125": -38.27005
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 46,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.52548114853097,
+                    48.8962265858883
+                ]
+            },
+            "properties": {
+                "OBJECTID": 46,
+                "Number_": 61,
+                "Turbine_Name": "SB61",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 534779.50100000016,
+                "Y_Metres": 5416028.411,
+                "X_DD": -2.52548115,
+                "Y_DD": 48.89622659,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -38.06999,
+                "Cluster": "C4",
+                "GlobalID": "38fcdaa1-8fcf-40ae-b63b-74529c0e034b",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 5,
+                "D": null,
+                "Grd_Pk_LAT": -44.8906,
+                "TOP_LS_LAT": -38.4589,
+                "GeoXYZ_20210125": -38.06999
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 47,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5153164572492,
+                    48.8891855584106
+                ]
+            },
+            "properties": {
+                "OBJECTID": 47,
+                "Number_": 62,
+                "Turbine_Name": "SB62",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 535529.50100000016,
+                "Y_Metres": 5415250.411,
+                "X_DD": -2.51531646,
+                "Y_DD": 48.88918556,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -38.58,
+                "Cluster": "C2",
+                "GlobalID": "31a7f109-77d5-4eb2-8a68-b263e1f44e76",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 5,
+                "D": null,
+                "Grd_Pk_LAT": -66.7607,
+                "TOP_LS_LAT": -56.1437,
+                "GeoXYZ_20210125": -38.58
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 48,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.57964659853468,
+                    48.8457541185205
+                ]
+            },
+            "properties": {
+                "OBJECTID": 48,
+                "Number_": 5,
+                "Turbine_Name": "SB05",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 530840.50100000016,
+                "Y_Metres": 5410394.411,
+                "X_DD": -2.5796466,
+                "Y_DD": 48.84575412,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -34.37301,
+                "Cluster": "C1",
+                "GlobalID": "4c6dbcf6-db0c-4555-bb70-ef308e11e717",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 1,
+                "D": null,
+                "Grd_Pk_LAT": -64.6588,
+                "TOP_LS_LAT": -40.6167,
+                "GeoXYZ_20210125": -34.37301
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 49,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.58769595848301,
+                    48.8681073747109
+                ]
+            },
+            "properties": {
+                "OBJECTID": 49,
+                "Number_": 14,
+                "Turbine_Name": "SB14",
+                "UPDATED": 1601596800000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 530236.47080000024,
+                "Y_Metres": 5412876.0147999991,
+                "X_DD": -2.58769596,
+                "Y_DD": 48.86810738,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -36.23001,
+                "Cluster": "C4",
+                "GlobalID": "f7433d40-2e01-4be0-909a-417327b2142b",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 1,
+                "D": null,
+                "Grd_Pk_LAT": -52.3458,
+                "TOP_LS_LAT": -36.7518,
+                "GeoXYZ_20210125": -36.23001
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 50,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.57719885336541,
+                    48.8611532564018
+                ]
+            },
+            "properties": {
+                "OBJECTID": 50,
+                "Number_": 15,
+                "Turbine_Name": "SB15",
+                "UPDATED": 1601596800000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 531010.5745000001,
+                "Y_Metres": 5412107.2051,
+                "X_DD": -2.57719885,
+                "Y_DD": 48.86115326,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -35.31995,
+                "Cluster": "C1",
+                "GlobalID": "59a25eaf-127d-41f6-9e87-47feaf88f7d7",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 1,
+                "D": null,
+                "Grd_Pk_LAT": -97.933,
+                "TOP_LS_LAT": -37.7267,
+                "GeoXYZ_20210125": -35.31995
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 51,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.56678684005169,
+                    48.8544335724794
+                ]
+            },
+            "properties": {
+                "OBJECTID": 51,
+                "Number_": 16,
+                "Turbine_Name": "SB16",
+                "UPDATED": 1601596800000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 531778.50059999991,
+                "Y_Metres": 5411364.5275,
+                "X_DD": -2.56678684,
+                "Y_DD": 48.85443357,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -34.29998,
+                "Cluster": "C3",
+                "GlobalID": "268fd1de-c600-4ece-af3a-ae74697f2b10",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 1,
+                "D": null,
+                "Grd_Pk_LAT": -57.2081,
+                "TOP_LS_LAT": -37.9478,
+                "GeoXYZ_20210125": -34.29998
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 52,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.54620842420963,
+                    48.8409017895661
+                ]
+            },
+            "properties": {
+                "OBJECTID": 52,
+                "Number_": 18,
+                "Turbine_Name": "SB18",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 533297.00399999972,
+                "Y_Metres": 5409869.1088,
+                "X_DD": -2.54620842,
+                "Y_DD": 48.84090179,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -34.78001,
+                "Cluster": "C3",
+                "GlobalID": "a52c27f7-6111-43f3-bd79-86bee448faf1",
+                "Design_Status": "Microsited Position",
+                "SOURCE": "STB-FTI-QUA-FOR-VOO-004464;144392-VOOW-TI-INS-MOC-0090 Micro-siting at locations B17 and B18.pdf",
+                "String_ID": 1,
+                "D": null,
+                "Grd_Pk_LAT": -45.6306,
+                "TOP_LS_LAT": -35.4193,
+                "GeoXYZ_20210125": -34.78001
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 53,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.53455626791947,
+                    48.8339417752742
+                ]
+            },
+            "properties": {
+                "OBJECTID": 53,
+                "Number_": 19,
+                "Turbine_Name": "SB19",
+                "UPDATED": 1601596800000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 534156.71150000021,
+                "Y_Metres": 5409100.5861000009,
+                "X_DD": -2.53455627,
+                "Y_DD": 48.83394178,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -34.11994,
+                "Cluster": "C3",
+                "GlobalID": "4e2e79c8-a047-47b4-8c17-1ac47d878873",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 7,
+                "D": null,
+                "Grd_Pk_LAT": -57.7493,
+                "TOP_LS_LAT": -35.0834,
+                "GeoXYZ_20210125": -34.11994
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 54,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.50356495612177,
+                    48.8137372492938
+                ]
+            },
+            "properties": {
+                "OBJECTID": 54,
+                "Number_": 22,
+                "Turbine_Name": "SB22",
+                "UPDATED": 1601596800000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 536445.65749999974,
+                "Y_Metres": 5406868.9966,
+                "X_DD": -2.50356496,
+                "Y_DD": 48.81373725,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -35.01,
+                "Cluster": "C1",
+                "GlobalID": "f855256b-66e4-4224-99f8-e9eb6237d37f",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 7,
+                "D": null,
+                "Grd_Pk_LAT": -61.3511,
+                "TOP_LS_LAT": -55.529,
+                "GeoXYZ_20210125": -35.01
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 55,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.56455141140176,
+                    48.8698363937141
+                ]
+            },
+            "properties": {
+                "OBJECTID": 55,
+                "Number_": 29,
+                "Turbine_Name": "SB29",
+                "UPDATED": 1601596800000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 531932.68030000012,
+                "Y_Metres": 5413077.6744,
+                "X_DD": -2.56455141,
+                "Y_DD": 48.86983639,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -35.87,
+                "Cluster": "C4",
+                "GlobalID": "58985b98-d5f2-4f40-88b0-71830626eb27",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 4,
+                "D": null,
+                "Grd_Pk_LAT": -43.4888,
+                "TOP_LS_LAT": -37.069,
+                "GeoXYZ_20210125": -35.87
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 56,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.55386679280079,
+                    48.8631282430242
+                ]
+            },
+            "properties": {
+                "OBJECTID": 56,
+                "Number_": 30,
+                "Turbine_Name": "SB30",
+                "UPDATED": 1601596800000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 532720.58490000013,
+                "Y_Metres": 5412336.5219,
+                "X_DD": -2.55386679,
+                "Y_DD": 48.86312824,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -35.31,
+                "Cluster": "C3",
+                "GlobalID": "06f3c7c1-eff8-46e2-9854-868fcb06296f",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 4,
+                "D": null,
+                "Grd_Pk_LAT": -45.7585,
+                "TOP_LS_LAT": -36.6694,
+                "GeoXYZ_20210125": -35.31
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 57,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.54347445336951,
+                    48.85633994504
+                ]
+            },
+            "properties": {
+                "OBJECTID": 57,
+                "Number_": 31,
+                "Turbine_Name": "SB31",
+                "UPDATED": 1601596800000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 533487.3125,
+                "Y_Metres": 5411586.4426000006,
+                "X_DD": -2.54347445,
+                "Y_DD": 48.85633995,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -35.06001,
+                "Cluster": "C3",
+                "GlobalID": "f7139f99-2b55-4344-887d-1c1db51e6299",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 4,
+                "D": null,
+                "Grd_Pk_LAT": -42.5249,
+                "TOP_LS_LAT": -35.9491,
+                "GeoXYZ_20210125": -35.06001
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 58,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.4695951645813,
+                    48.8089481565293
+                ]
+            },
+            "properties": {
+                "OBJECTID": 58,
+                "Number_": 37,
+                "Turbine_Name": "SB37",
+                "UPDATED": 1597363200000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 538943.2412,
+                "Y_Metres": 5406353.4548,
+                "X_DD": -2.46959516,
+                "Y_DD": 48.80894816,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -35.67007,
+                "Cluster": "C2",
+                "GlobalID": "d35547dd-009e-4c29-8e10-0f3ccef6f4e1",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 8,
+                "D": null,
+                "Grd_Pk_LAT": -71.8426,
+                "TOP_LS_LAT": -43.7442,
+                "GeoXYZ_20210125": -35.67007
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 59,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.55162194891695,
+                    48.8787943414758
+                ]
+            },
+            "properties": {
+                "OBJECTID": 59,
+                "Number_": 43,
+                "Turbine_Name": "SB43",
+                "UPDATED": 1601596800000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 532874.9617999997,
+                "Y_Metres": 5414078.9694,
+                "X_DD": -2.55162195,
+                "Y_DD": 48.87879434,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -37.25,
+                "Cluster": "C4",
+                "GlobalID": "5c528775-b01d-4990-97d5-380be6fa2ee5",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 3,
+                "D": null,
+                "Grd_Pk_LAT": -47.7356,
+                "TOP_LS_LAT": -38.8974,
+                "GeoXYZ_20210125": -37.25
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 60,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.55777176498213,
+                    48.9161204402036
+                ]
+            },
+            "properties": {
+                "OBJECTID": 60,
+                "Number_": 58,
+                "Turbine_Name": "SB58",
+                "UPDATED": 1601596800000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 532399.92729999963,
+                "Y_Metres": 5418225.6039,
+                "X_DD": -2.55777176,
+                "Y_DD": 48.91612044,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -37.91,
+                "Cluster": "C4",
+                "GlobalID": "92b4394a-590d-4d23-b2e5-31a97fbee6a9",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 2,
+                "D": null,
+                "Grd_Pk_LAT": -41.5269,
+                "TOP_LS_LAT": -37.6975,
+                "GeoXYZ_20210125": -37.91
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 61,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.54686955183973,
+                    48.909655944626
+                ]
+            },
+            "properties": {
+                "OBJECTID": 61,
+                "Number_": 59,
+                "Turbine_Name": "SB59",
+                "UPDATED": 1601596800000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 533202.96119999979,
+                "Y_Metres": 5417511.6948000006,
+                "X_DD": -2.54686955,
+                "Y_DD": 48.90965595,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -38.19001,
+                "Cluster": "C4",
+                "GlobalID": "aff0362f-5ce8-4e37-80da-742b5de2386c",
+                "Design_Status": null,
+                "SOURCE": null,
+                "String_ID": 2,
+                "D": null,
+                "Grd_Pk_LAT": -44.0486,
+                "TOP_LS_LAT": -38.1692,
+                "GeoXYZ_20210125": -38.19001
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 62,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.53649997491605,
+                    48.9028070594099
+                ]
+            },
+            "properties": {
+                "OBJECTID": 62,
+                "Number_": 60,
+                "Turbine_Name": "SB60",
+                "UPDATED": 1655337600000,
+                "Layer": "LAYOUT_pFRAsbr077",
+                "X_Metres": 533967.42750000022,
+                "Y_Metres": 5416754.9333999995,
+                "X_DD": -2.53649997,
+                "Y_DD": 48.90280706,
+                "Bathy_0_25m_LAT_GEOXYZ_2020": -38.13998,
+                "Cluster": "C4",
+                "GlobalID": "bc8c7994-4e0a-4375-a863-f863786ca1ca",
+                "Design_Status": "Microsited Position",
+                "SOURCE": "STB-FTI-ENG-FOR-VOO-004450; 144392-VOOW-TI-INS-MOC-0087 - Micro-siting of location B60 (incl app).pdf",
+                "String_ID": 2,
+                "D": null,
+                "Grd_Pk_LAT": -52.9636,
+                "TOP_LS_LAT": -38.6419,
+                "GeoXYZ_20210125": -38.13998
+            }
+        }
+    ]
+}
