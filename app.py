@@ -4,6 +4,8 @@ import streamlit as st
 from folium.raster_layers import WmsTileLayer
 from streamlit_folium import st_folium
 
+from data.dreal import fetch_natura2000, fetch_znieff_layers
+
 # Page Configuration
 st.set_page_config(
     page_title="Baie de Saint-Brieuc Overview",
@@ -18,26 +20,30 @@ st.title("Baie de Saint-Brieuc: Environment and Industry")
 st.markdown(
     """
 The Baie de Saint-Brieuc is a vital ecological and economic area in France. This app provides an overview of its:
-- **Natural Protection Areas** [DREAL Bretagne](https://www.bretagne.developpement-durable.gouv.fr/natura-2000-r94.html)
+- **Natural Protection Areas** [Natura 2000](https://inpn.mnhn.fr/programme/natura2000/presentation/objectifs) and [ZNIEFF](https://inpn.mnhn.fr/programme/inventaire-znieff/presentation) areas from [DREAL Bretagne](https://www.bretagne.developpement-durable.gouv.fr/spip.php?page=sommaire)
 - **Fishing Activities** [data.gouv.fr](https://www.data.gouv.fr/fr/datasets/ports-departementaux-des-cotes-darmor/)
 - **Offshore Wind Projects** [Saint Brieuc - Carte Interactive: Le parc éolien au large de la baie de Saint-Brieuc](https://www.arcgis.com/home/item.html?id=359ff8497809483391012bfcc7d1bf0e)
 """
 )
 
 # Layout for Map and Table
-col1, col2 = st.columns([2, 1])
+col1, col2 = st.columns(2)
 
 # Load GeoJSON data as GeoDataFrames
 ports_gdf = gpd.read_file("data/ports-departementaux-des-cotes-darmor.geojson")
-natura2000_gdf = gpd.read_file("data/natura2000_zps.geojson")
+znieff_gdf = fetch_znieff_layers()
+natura_gdf = fetch_natura2000()
 windmills_gdf = gpd.read_file("data/windmills.geojson")
-
-# Count the windmills
-windmill_count = len(windmills_gdf)
 
 with col1:
     # Add the map
     st.header("Map of the Baie de Saint-Brieuc")
+    transparency = st.slider(
+        "Adjust layers transparency (0 = fully opaque, 1 = fully transparent)",
+        0.0,
+        1.0,
+        0.5,
+    )
     map_center = [48.55, -2.8]  # Coordinates of Baie de Saint-Brieuc
     m = folium.Map(location=map_center, zoom_start=10)
 
@@ -63,15 +69,39 @@ with col1:
         name="Windmills",
     ).add_to(m)
 
-    # Add Natura 2000 Areas
-    popup_natura2000 = folium.GeoJsonPopup(
-        fields=["SITENAME"],
-        aliases=["Name:"],
+    # Add Znieff Areas
+    popup_znieff = folium.GeoJsonPopup(
+        fields=["nom", "url"],
+        aliases=["Name:", "Url:"],
     )
+    style_znieff = lambda x: {
+        "fillColor": "#90EE90",
+        "lineColor": "#006400",
+        "fillOpacity": 1
+        - transparency,  # Adjust the fill opacity (lower is more transparent)
+        "opacity": 1
+        - transparency,  # Adjust the line opacity (lower is more transparent)
+    }
     folium.GeoJson(
-        natura2000_gdf,
-        popup=popup_natura2000,
-        name="Natura 2000 Sites",
+        znieff_gdf, popup=popup_znieff, name="ZNIEFF sites", style_function=style_znieff
+    ).add_to(m)
+
+    # Add Natura2000 Areas
+    popup_natura = folium.GeoJsonPopup(
+        fields=["nom", "url"],
+        aliases=["Name:", "Url:"],
+    )
+    style_natura = lambda x: {
+        "fillColor": "#ADD8E6",
+        "lineColor": "#00008B",
+        "fillOpacity": 1 - transparency,  # Adjust the fill opacity
+        "opacity": 1 - transparency,  # Adjust the line opacity
+    }
+    folium.GeoJson(
+        natura_gdf,
+        popup=popup_natura,
+        name="Natura2000 areas",
+        style_function=style_natura,
     ).add_to(m)
 
     # Layer Control
@@ -82,22 +112,31 @@ with col1:
 
 with col2:
     st.header("Data Tables and Insights")
-    st.subheader(f"Windmills Count: {windmill_count}")
 
-    # Layout for two side-by-side tables
     col_table1, col_table2 = st.columns(2)
 
     with col_table1:
+
+        # Layout for two side-by-side tables
         st.subheader("Fishing Ports")
         ports_df = ports_gdf[["COMMUNE", "ACTIVITE"]]
         ports_df.columns = [col.capitalize() for col in ports_df.columns]
-        st.dataframe(ports_df)
+        st.dataframe(ports_df, use_container_width=True)
+
+        # Count the windmills
+        windmill_count = len(windmills_gdf)
+        st.subheader(f"Windmills Count: {windmill_count}")
 
     with col_table2:
-        st.subheader("Natura 2000 Sites")
-        natura2000_df = natura2000_gdf[["SITENAME", "SITECODE"]]
-        natura2000_df.columns = [col.capitalize() for col in natura2000_df.columns]
-        st.dataframe(natura2000_df)
+        st.subheader("ZNIEFF Areas")
+        znieff_df = znieff_gdf[["nom", "id_mnhn"]]
+        znieff_df.columns = [col.capitalize() for col in znieff_df.columns]
+        st.dataframe(znieff_df, use_container_width=True)
+
+        st.subheader("Natura2000 Areas")
+        natura_df = natura_gdf[["nom", "code_europ"]]
+        natura_df.columns = [col.capitalize() for col in natura_df.columns]
+        st.dataframe(natura_df, use_container_width=True)
 
 # Sidebar
 st.sidebar.header("About This App")
