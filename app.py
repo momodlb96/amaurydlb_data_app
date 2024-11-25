@@ -38,12 +38,6 @@ windmills_gdf = gpd.read_file("data/windmills.geojson")
 with col1:
     # Add the map
     st.header("Map of the Baie de Saint-Brieuc")
-    transparency = st.slider(
-        "Adjust layers transparency (0 = fully opaque, 1 = fully transparent)",
-        0.0,
-        1.0,
-        0.5,
-    )
     map_center = [48.55, -2.8]  # Coordinates of Baie de Saint-Brieuc
     m = folium.Map(location=map_center, zoom_start=10)
 
@@ -56,6 +50,7 @@ with col1:
         ports_gdf,
         popup=popup_ports,
         name="Fishing Ports",
+        marker=folium.Marker(icon=folium.Icon(icon="anchor", prefix="fa")),
     ).add_to(m)
 
     # Add Offshore Wind Farm
@@ -67,6 +62,7 @@ with col1:
         windmills_gdf,
         popup=popup_windmills,
         name="Windmills",
+        marker=folium.Marker(icon=folium.Icon(icon="fa-wind", prefix="fa")),
     ).add_to(m)
 
     # Add Znieff Areas
@@ -77,10 +73,8 @@ with col1:
     style_znieff = lambda x: {
         "fillColor": "#90EE90",
         "lineColor": "#006400",
-        "fillOpacity": 1
-        - transparency,  # Adjust the fill opacity (lower is more transparent)
-        "opacity": 1
-        - transparency,  # Adjust the line opacity (lower is more transparent)
+        "fillOpacity": 1,
+        "opacity": 1,
     }
     folium.GeoJson(
         znieff_gdf, popup=popup_znieff, name="ZNIEFF sites", style_function=style_znieff
@@ -92,10 +86,10 @@ with col1:
         aliases=["Name:", "Url:"],
     )
     style_natura = lambda x: {
-        "fillColor": "#ADD8E6",
+        "fillColor": "#6495ED",
         "lineColor": "#00008B",
-        "fillOpacity": 1 - transparency,  # Adjust the fill opacity
-        "opacity": 1 - transparency,  # Adjust the line opacity
+        "fillOpacity": 1,
+        "opacity": 1,
     }
     folium.GeoJson(
         natura_gdf,
