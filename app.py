@@ -123,14 +123,23 @@ with col2:
 
     with col_table2:
         st.subheader("ZNIEFF Areas")
-        znieff_df = znieff_gdf[["nom", "id_mnhn"]]
-        znieff_df.columns = [col.capitalize() for col in znieff_df.columns]
-        st.dataframe(znieff_df, use_container_width=True)
+        st.dataframe(
+            znieff_gdf.drop(columns=["geometry"]),
+            use_container_width=True,
+            hide_index=True,
+            on_select="rerun",
+            selection_mode="multi-row",
+        )
 
         st.subheader("Natura2000 Areas")
-        natura_df = natura_gdf[["nom", "code_europ"]]
-        natura_df.columns = [col.capitalize() for col in natura_df.columns]
-        st.dataframe(natura_df, use_container_width=True)
+        st.dataframe(
+            natura_gdf.drop(columns=["geometry"]),
+            use_container_width=True,
+            hide_index=True,
+            on_select="rerun",
+            selection_mode="multi-row",
+        )
+
 
 # Sidebar
 st.sidebar.header("About This App")
