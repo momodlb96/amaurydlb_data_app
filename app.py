@@ -4,7 +4,9 @@ import streamlit as st
 from folium.raster_layers import WmsTileLayer
 from streamlit_folium import st_folium
 
+from data.data_gouv import fetch_ports
 from data.dreal import fetch_natura2000, fetch_znieff_layers
+from data.iberdrola import fetch_windmills
 
 # Page Configuration
 st.set_page_config(
@@ -30,10 +32,10 @@ The Baie de Saint-Brieuc is a vital ecological and economic area in France. This
 col1, col2 = st.columns(2)
 
 # Load GeoJSON data as GeoDataFrames
-ports_gdf = gpd.read_file("data/ports-departementaux-des-cotes-darmor.geojson")
+ports_gdf = fetch_ports()
 znieff_gdf = fetch_znieff_layers()
 natura_gdf = fetch_natura2000()
-windmills_gdf = gpd.read_file("data/windmills.geojson")
+windmills_gdf = fetch_windmills()
 
 with col1:
     # Add the map
@@ -113,9 +115,13 @@ with col2:
 
         # Layout for two side-by-side tables
         st.subheader("Fishing Ports")
-        ports_df = ports_gdf[["COMMUNE", "ACTIVITE"]]
-        ports_df.columns = [col.capitalize() for col in ports_df.columns]
-        st.dataframe(ports_df, use_container_width=True)
+        st.dataframe(
+            ports_gdf.drop(columns=["geometry", "__id"]),
+            use_container_width=True,
+            hide_index=True,
+            on_select="rerun",
+            selection_mode="multi-row",
+        )
 
         # Count the windmills
         windmill_count = len(windmills_gdf)
